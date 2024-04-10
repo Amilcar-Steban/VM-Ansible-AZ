@@ -1,0 +1,5 @@
+---
+- hosts: azure_vm
+  become: yes
+  roles:
+    - docker_container
